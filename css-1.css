@@ -1,0 +1,40 @@
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.container{
+    display:grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5px;
+    
+    justify-items: center;
+    border-radius:30px;
+}
+
+.box{
+    height:180px;
+    width:180px;
+    background-color:chocolate;
+    border-radius: 15px;
+    font-size: 150px;
+    color:darkgreen;
+    box-shadow: 5px 5px black;
+    
+}
+
+body{
+    margin:0px 0px;
+    padding:0px 0px;
+    background-color:cadetblue;
+}
+
+h1{
+    margin:0px 0px;
+    padding:0px 0px;
+    text-align: center;
+    font-size: 120px;
+    color:rgb(216, 223, 19);
+}
